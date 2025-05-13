@@ -1,0 +1,6 @@
+html {
+    background-image: url("../img/background.png");
+    background-size: 90vh 100vh;
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+}
