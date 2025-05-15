@@ -1,0 +1,28 @@
+{
+  "name": "lieutar.github.io",
+  "module": "dst/esm/index.js",
+  "types": "dst/esm/index.d.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.15.18",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.0.0",
+    "prettier": "^3.5.3",
+    "prettifier": "^0.4.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/jss": "^10.0.0",
+    "jsdom": "^26.1.0",
+    "jss": "^10.10.0",
+    "jss-preset-default": "^10.10.0"
+  },
+  "scripts": {
+    "build": "bun run scripts/build"
+  }
+}
