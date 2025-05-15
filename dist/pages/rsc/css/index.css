@@ -1,0 +1,6 @@
+html {
+  background-size: 98vh 110vh;
+  background-image: url("../img/background.svg");
+  background-repeat: no-repeat;
+  background-position: 50% -5vh;
+}
